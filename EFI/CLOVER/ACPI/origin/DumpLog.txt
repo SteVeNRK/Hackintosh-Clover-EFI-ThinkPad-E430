@@ -1,0 +1,121 @@
+21:269  8:169  Found BIOS RSDP at %p
+21:269  0:000  Printing ACPI tables from RSDP %p ...
+21:269  0:000   %p: 'RSD PTR IntelRÔàÿÚ$', Rev: -925081401 (Acpi 2.0 or newer), Len: 36
+21:269  0:000    (Xsdt: %p, Rsdt: %p)
+21:269  0:000    %p: 'XSDTœ', 'XSDT', Rev: -925081577, Len: 1
+21:269  0:000    %p: 'RSDT`', 'RSDT', Rev: -925081577, Len: 1
+21:269  0:000    Tables in Xsdt: 15
+21:269  0:000    0. %p: 'FACPô', 'FACP', Rev: -925081577, Len: 4
+21:269  0:000        (Dsdt: DAFEF000, Facs: DAF69000, XDsdt: dafef000, XFacs: daf69000)
+21:269  0:000        %p: 'DSDTU²', 'DSDT', Rev: -925081721, Len: 2
+21:270  0:000        %p: 'FACS@', Ver: -925081557, Len: 1
+21:270  0:000    1. %p: 'SLICv', 'SLIC', Rev: -925081577, Len: 1
+21:270  0:000    2. %p: 'SSDT', 'SSDT', Rev: -925081577, Len: 2
+21:270  0:000    3. %p: 'SSDT¥', 'SSDT', Rev: -925081577, Len: 2
+21:270  0:000    4. %p: 'HPET8', 'HPET', Rev: -925081577, Len: 1
+21:270  0:000    5. %p: 'APIC˜', 'APIC', Rev: -925081577, Len: 1
+21:270  0:000    6. %p: 'MCFG<', 'MCFG', Rev: -925081577, Len: 1
+21:270  0:000    7. %p: 'FPDTT', 'FPDT', Rev: -925081577, Len: 1
+21:270  0:000    8. %p: 'ASF!¥', 'ASF!', Rev: -925081577, Len: 32
+21:270  0:000    9. %p: 'SSDTh	', 'SSDT', Rev: -925081577, Len: 2
+21:270  0:000    10. %p: 'SSDT’
+', 'SSDT', Rev: -925081577, Len: 2
+21:270  0:000    11. %p: 'UEFI>', 'UEFI', Rev: -925081577, Len: 1
+21:270  0:000    12. %p: 'UEFIB', 'UEFI', Rev: -925081577, Len: 1
+21:270  0:000    13. %p: 'POATU', 'POAT', Rev: -925081577, Len: 3
+21:270  0:000    14. %p: 'UEFI¦', 'UEFI', Rev: -925081577, Len: 1
+21:270  0:000    Tables in Rsdt: 15
+21:270  0:000    0. %p: 'FACPô', 'FACP', Rev: -925081577, Len: 4
+21:270  0:000        (Dsdt: DAFEF000, Facs: DAF69000, XDsdt: dafef000, XFacs: daf69000)
+21:270  0:000        %p: 'DSDTU²', 'DSDT', Rev: -925081721, Len: 2
+21:271  0:000        %p: 'FACS@', Ver: -925081557, Len: 1
+21:271  0:000    1. %p: 'SLICv', 'SLIC', Rev: -925081577, Len: 1
+21:271  0:000    2. %p: 'SSDT', 'SSDT', Rev: -925081577, Len: 2
+21:271  0:000    3. %p: 'SSDT¥', 'SSDT', Rev: -925081577, Len: 2
+21:271  0:000    4. %p: 'HPET8', 'HPET', Rev: -925081577, Len: 1
+21:271  0:000    5. %p: 'APIC˜', 'APIC', Rev: -925081577, Len: 1
+21:271  0:000    6. %p: 'MCFG<', 'MCFG', Rev: -925081577, Len: 1
+21:271  0:000    7. %p: 'FPDTT', 'FPDT', Rev: -925081577, Len: 1
+21:271  0:000    8. %p: 'ASF!¥', 'ASF!', Rev: -925081577, Len: 32
+21:271  0:000    9. %p: 'SSDTh	', 'SSDT', Rev: -925081577, Len: 2
+21:271  0:000    10. %p: 'SSDT’
+', 'SSDT', Rev: -925081577, Len: 2
+21:271  0:000    11. %p: 'UEFI>', 'UEFI', Rev: -925081577, Len: 1
+21:271  0:000    12. %p: 'UEFIB', 'UEFI', Rev: -925081577, Len: 1
+21:271  0:000    13. %p: 'POATU', 'POAT', Rev: -925081577, Len: 3
+21:271  0:000    14. %p: 'UEFI¦', 'UEFI', Rev: -925081577, Len: 1
+21:271  0:000  Found UEFI Acpi 2.0 RSDP at %p
+21:271  0:000  Saving ACPI tables from RSDP %p to å’â„å‘â’ä±¿ä¹…å™Éîƒ”$ ...
+21:271  0:000   %p: 'RSD PTR LENOVOÔàÿÚ$', Rev: -925081401 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+21:275  0:004    (Xsdt: %p, Rsdt: %p)
+21:275  0:000    %p: 'XSDTœ', 'XSDT', Rev: -925081577, Len: 1 -> XSDT.aml
+21:277  0:002    %p: 'RSDT`', 'RSDT', Rev: -925081577, Len: 1 -> RSDT.aml
+21:279  0:001    Tables in Xsdt: 15
+21:279  0:000    0. %p: 'FACPô', 'FACP', Rev: -925081577, Len: 4 -> FACP.aml
+21:281  0:001        (Dsdt: DAFEF000, Facs: DAF69000, XDsdt: dafef000, XFacs: daf69000)
+21:281  0:000        %p: 'DSDTU²', 'DSDT', Rev: -925081721, Len: 2 -> DSDT.aml
+21:283  0:002        %p: 'FACS@', Ver: -925081557, Len: 1 -> FACS.aml
+21:285  0:001    1. %p: 'SLICv', 'SLIC', Rev: -925081577, Len: 1 -> SLIC.aml
+21:287  0:002    2. %p: 'SSDT', 'SSDT', Rev: -925081577, Len: 2 -> SSDT-0-SataAhci.aml
+21:289  0:002    3. %p: 'SSDT¥', 'SSDT', Rev: -925081577, Len: 2 -> SSDT-1-PtidDevc.aml
+21:291  0:001    4. %p: 'HPET8', 'HPET', Rev: -925081577, Len: 1 -> HPET.aml
+21:294  0:002    5. %p: 'APIC˜', 'APIC', Rev: -925081577, Len: 1 -> APIC.aml
+21:295  0:001    6. %p: 'MCFG<', 'MCFG', Rev: -925081577, Len: 1 -> MCFG.aml
+21:298  0:002    7. %p: 'FPDTT', 'FPDT', Rev: -925081577, Len: 1 -> FPDT.aml
+21:300  0:002    8. %p: 'ASF!¥', 'ASF!', Rev: -925081577, Len: 32 -> ASF!.aml
+21:302  0:002    9. %p: 'SSDTh	', 'SSDT', Rev: -925081577, Len: 2 -> SSDT-2-Cpu0Ist.aml
+21:304  0:002    10. %p: 'SSDT’
+', 'SSDT', Rev: -925081577, Len: 2 -> SSDT-3-CpuPm.aml (Found hidden SSDT 4 pcs)
+21:307  0:002        * 3448033304: 'ldri', '', Rev: 152, Len: 0  6C 64 72 69 00 00 00 00 98 AC 84 CD 00 00 00 00 
+21:307  0:000        * 3672357528: 'SSDT', 'ApIst', Rev: 2, Len: 771  53 53 44 54 03 03 00 00 02 82 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x3_0-ApIst.aml
+21:309  0:002        * 3672350744: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 2107  53 53 44 54 3B 08 00 00 02 E4 50 6D 52 65 66 00 Internal length = 2107 -> SSDT-x3_1-Cpu0Cst.aml
+21:311  0:002        * 3672350104: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 F8 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x3_2-ApCst.aml
+21:314  0:002  
+21:314  0:000    11. %p: 'UEFI>', 'UEFI', Rev: -925081577, Len: 1 -> UEFI.aml
+21:315  0:001    12. %p: 'UEFIB', 'UEFI', Rev: -925081577, Len: 1 -> UEFI.aml
+21:319  0:003    13. %p: 'POATU', 'POAT', Rev: -925081577, Len: 3 -> POAT.aml
+21:321  0:002    14. %p: 'UEFI¦', 'UEFI', Rev: -925081577, Len: 1 -> UEFI.aml
+21:324  0:003    Tables in Rsdt: 15
+21:324  0:000    0. %p: 'FACPô', 'FACP', Rev: -925081577, Len: 4
+21:324  0:000        (Dsdt: DAFEF000, Facs: DAF69000, XDsdt: dafef000, XFacs: daf69000)
+21:324  0:000        %p: 'DSDTU²', 'DSDT', Rev: -925081721, Len: 2
+21:325  0:000        %p: 'FACS@', Ver: -925081557, Len: 1
+21:325  0:000    1. %p: 'SLICv', 'SLIC', Rev: -925081577, Len: 1
+21:325  0:000    2. %p: 'SSDT', 'SSDT', Rev: -925081577, Len: 2
+21:325  0:000    3. %p: 'SSDT¥', 'SSDT', Rev: -925081577, Len: 2
+21:325  0:000    4. %p: 'HPET8', 'HPET', Rev: -925081577, Len: 1
+21:325  0:000    5. %p: 'APIC˜', 'APIC', Rev: -925081577, Len: 1
+21:325  0:000    6. %p: 'MCFG<', 'MCFG', Rev: -925081577, Len: 1
+21:325  0:000    7. %p: 'FPDTT', 'FPDT', Rev: -925081577, Len: 1
+21:325  0:000    8. %p: 'ASF!¥', 'ASF!', Rev: -925081577, Len: 32
+21:325  0:000    9. %p: 'SSDTh	', 'SSDT', Rev: -925081577, Len: 2
+21:325  0:000    10. %p: 'SSDT’
+', 'SSDT', Rev: -925081577, Len: 2
+21:325  0:000    11. %p: 'UEFI>', 'UEFI', Rev: -925081577, Len: 1
+21:325  0:000    12. %p: 'UEFIB', 'UEFI', Rev: -925081577, Len: 1
+21:325  0:000    13. %p: 'POATU', 'POAT', Rev: -925081577, Len: 3
+21:325  0:000    14. %p: 'UEFI¦', 'UEFI', Rev: -925081577, Len: 1
+21:325  0:000  Found UEFI Acpi 1.0 RSDP at %p
+21:325  0:000  Printing ACPI tables from RSDP %p ...
+21:325  0:000   %p: 'RSD PTR LENOVO', Rev: -925081401 (Acpi 1.0), Len: 20
+21:325  0:000    (Rsdt: %p)
+21:325  0:000    %p: 'RSDT\', 'RSDT', Rev: -925081577, Len: 1
+21:325  0:000    Tables in Rsdt: 14
+21:325  0:000    0. %p: 'FACPô', 'FACP', Rev: -925081577, Len: 4
+21:325  0:000        (Dsdt: DAFEF000, Facs: DAF69000, XDsdt: dafef000, XFacs: daf69000)
+21:325  0:000        %p: 'DSDTU²', 'DSDT', Rev: -925081721, Len: 2
+21:326  0:000        %p: 'FACS@', Ver: -925081557, Len: 1
+21:326  0:000    1. %p: 'SSDT', 'SSDT', Rev: -925081577, Len: 2
+21:326  0:000    2. %p: 'SSDT¥', 'SSDT', Rev: -925081577, Len: 2
+21:326  0:000    3. %p: 'HPET8', 'HPET', Rev: -925081577, Len: 1
+21:326  0:000    4. %p: 'APIC˜', 'APIC', Rev: -925081577, Len: 1
+21:326  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -925081577, Len: 1
+21:326  0:000    6. %p: 'FPDTT', 'FPDT', Rev: -925081577, Len: 1
+21:326  0:000    7. %p: 'ASF!¥', 'ASF!', Rev: -925081577, Len: 32
+21:326  0:000    8. %p: 'SSDTh	', 'SSDT', Rev: -925081577, Len: 2
+21:326  0:000    9. %p: 'SSDT’
+', 'SSDT', Rev: -925081577, Len: 2
+21:326  0:000    10. %p: 'UEFI>', 'UEFI', Rev: -925081577, Len: 1
+21:326  0:000    11. %p: 'UEFIB', 'UEFI', Rev: -925081577, Len: 1
+21:326  0:000    12. %p: 'POATU', 'POAT', Rev: -925081577, Len: 3
+21:326  0:000    13. %p: 'UEFI¦', 'UEFI', Rev: -925081577, Len: 1
